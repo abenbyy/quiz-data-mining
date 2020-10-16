@@ -47,27 +47,27 @@ boxplot()
 
 ## Frequent Pattern Analysis
 
-1. Merge
-    Gabungin datanya
+### 1. Merge
+    > Gabungin datanya
     ```
     merge()
     ```
-2. Filter
-    Misalnya disuruh filter data dimana harga nya harus diatas 15000
+### 2. Filter
+    > Misalnya disuruh filter data dimana harga nya harus diatas 15000
 
-3. Split
+### 3. Split
     ```
     split()
     ```
 
-4. Apriori
-    Perhatikan minimum support
+### 4. Apriori
+    > Perhatikan minimum support
     ```
     apriori()
     ```
     
-5. Association Rules
-    Perhatikan minimum confidence
+### 5. Association Rules
+    > Perhatikan minimum confidence
     ```
     ruleInduction()
     ```
